@@ -5,9 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Microsoft Hero Design</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./css/main.css">
   </head>
   </head>
   <body>
-    <h1>Microsoft Website Hero Design</h1>
+    <header class="bg-white flex justify-between items-center py-4 px-24">
+      <div class="flex items-center gap-6">
+        <a href="./index.html">
+          <img class="w-32" src="./images/microsoft-logo.png" alt="Microsoft Logo">
+        </a>
+        <nav>
+          <ul class="flex gap-6">
+            <li><a href="#" class="text-sm">Microsoft 365</a></li>
+            <li><a href="#" class="text-sm">Teams</a></li>
+            <li><a href="#" class="text-sm">Copilot</a></li>
+            <li><a href="#" class="text-sm">Windows</a></li>
+            <li><a href="#" class="text-sm">Surface</a></li>
+            <li><a href="#" class="text-sm">XBox</a></li>
+            <li><a href="#" class="text-sm">Cyber Week deals</a></li>
+            <li><a href="#" class="text-sm">Small Business</a></li>
+            <li><a href="#" class="text-sm">Support</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <nav>
+          <ul class="flex gap-6">
+            <li><a href="" class="text-sm">All Microsoft</a></li>
+            <li><a href="" class="text-sm">Search</a></li>
+            <li><a href="" class="text-sm">Cart</a></li>
+            <li><a href="" class="text-sm">Sign in</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="bg-fuchsia-800 flex justify-center py-2 relative">
+      <div class="flex gap-3 items-center">
+        <p class="text-white">Gifts ship fast and free. No minimum purchase required.</p>
+        <button class="border border-white text-white p-1 rounded text-sm font-bold">Shop Deals</button>
+      </div>
+      <button class="text-white absolute right-0 top-0 pt-3 pr-3 cursor-pointer">X</button>
+    </div>
+
+    <section class="flex items-center hero py-[150px]">
+      <div class="w-1/2"></div>
+
+      <div class="w-1/2">
+        <a href="#" class="bg-fuchsia-800 py-2 px-3 text-white rounded-md font-bold text-sm">Cyber Week</a>
+        <h1 class="my-6 text-5xl">Save up to $700 on Surface <br> Laptop, 13.8-inch</h1>
+        <p>Speed, style, and built-in intelligence—it’s a gift for all seasons. Plus, get up to $600 <br> cash back with a qualified trade-in.</p>
+        <button class="mt-8 bg-blue-600 py-3 px-4 text-white rounded-md">Shop now</button>
+      </div>
+    </section>
   </body>
 </html>
